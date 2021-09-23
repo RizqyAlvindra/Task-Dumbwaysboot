@@ -92,8 +92,14 @@
 * lalu sama seperti sebelum-sebelumnya,buat lah folder terlebih dahulu.: `mkdir golang-app`
 * lalu pindah directory :`cd golang-app`
 * lalu buat sebuah file dengan : `nano index.go`
-* jika sudah masukan 
+* jika sudah masukan:
 
+  ![gogogo](https://user-images.githubusercontent.com/90166916/134504530-6dca15cf-0d28-4ce7-b748-2f426363bdc2.png)
+
+* lalu jalankan aplikasinya : `go run index.go`
+
+
+* jika ingin di build : `
   
 
 
