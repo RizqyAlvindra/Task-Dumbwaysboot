@@ -39,5 +39,12 @@
 * untuk pindah directory bisa menggunakan `cd myapp-nodejs`
 * buatlah file package.json : npm init-y
 
+  ![init1](https://user-images.githubusercontent.com/90166916/134492404-59dc098e-ea8a-4669-9d70-d23c4f621900.png)
+
+* jika sudah bisa di cek di `ls`
+* lalu selanjutnya install express : `npm install express --save`
+
+  
+
 
 
