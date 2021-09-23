@@ -47,4 +47,6 @@
   ![node js3](https://user-images.githubusercontent.com/90166916/134492790-ccbf3bff-836f-4086-855c-9eeaa2307807.png)
 * selanjutnya masukkan script `nano index.js`
 * jika sudah masukan 
+  
+  
 
