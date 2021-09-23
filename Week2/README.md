@@ -71,7 +71,11 @@
 * lalu buat file index.py : `nano index.py`
 * jika sudah masukan:
 
+  ![Screenshot from 2021-09-23 15-47-22](https://user-images.githubusercontent.com/90166916/134497882-21429a8b-171d-4510-8d84-71a9db558816.png)
+
+* lalu jalankan aplikasi : `python3 index.py`
   
+* terakhir buka browser :`https://127.0.0.1:5000/`
 
 
 
