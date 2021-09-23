@@ -26,7 +26,18 @@
 * jika sudah masukan `nvm use 14` untuk mengetahui node dan npm version berapa yang kalian pakai 
   
   Contoh
+  ![Screenshot from 2021-09-23 17-19-48](https://user-images.githubusercontent.com/90166916/134491161-aef0880b-dbb1-42fa-ac74-8d37b69cd323.png)
+* jika sudah sampai di tahap di atas instalasi Node.js telah berhasil.
+* jika anda ingin mengecek anda bisa menggunakan perintah 
+* `node -v`
+* `npm -v`
 
+   untuk mengetahui versi berapa yang digunakan.  
+  
+# Langkah-langkah membuat aplikasi sederhana menguunakan Node.js
+* buatlah sebuah folder baru dengan menggunakan script `mkdir myapp-node.js`
+* untuk pindah directory bisa menggunakan `cd myapp-nodejs`
+* buatlah file package.json : npm init-y
 
 
 
