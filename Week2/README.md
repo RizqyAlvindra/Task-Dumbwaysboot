@@ -21,6 +21,7 @@
 
 * buka terminal (di tugas saya ini saya menggunakan terminal linux ubuntu)
 * pertama download curlnya dulu `sudo apt install curl`
+  Screenshot from 2021-09-23 17-07-13
 * masukkan code script `curl -o- https://raw.gitusercontent.com/nvm-sh/nvm/v0.38.0/install.sh|bash `
 * 
 
