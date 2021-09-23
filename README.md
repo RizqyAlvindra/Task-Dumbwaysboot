@@ -1,2 +1,3 @@
 # Task-Dumbwaysboot
-[WEEK 1](week1)
+[Tugas DevOps1](Tugas DevOps week1)
+[Tugas DevOps2](Tugas DevOps week2)
