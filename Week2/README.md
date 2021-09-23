@@ -51,4 +51,9 @@
   ![nano](https://user-images.githubusercontent.com/90166916/134495071-1a2fbe34-f897-41f2-b7bd-6f8bd8c1e822.png)
 * lalu simpan menggunakan `ctrl+x`
 * kemudian tekan `y` lalu `enter`
+* kemudian jalan kan dengan menggunakan perintah `node index.js`
+  
+  ![node js5](https://user-images.githubusercontent.com/90166916/134495621-ebb84835-1d1e-4590-87eb-c813c2a7ade2.png)
+ 
+ * jika sudah buka web browser: `https://http://localhost:5000`
 
