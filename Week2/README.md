@@ -1,4 +1,4 @@
-# Tugas DevOps Week2
+# Tugas DevOps Week2.
 
 * Apa itu aplikasi :
   Aplikasi adalah sebuah perangkat lunak komputer yang melakukan fungsi spesifik secara langsung untuk pengguna akhir. Aplikasi dapat berjalan secara mandiri atau secara bersamaan dengan   sekelompok program.
@@ -66,8 +66,9 @@
 * lalu install package managernya : `sudo apt install python3 -pip`
 * lalu instal flask : `sudo apt install python3-flask`
 
-# Langkah-langkah membuat aplikasi sederhana dengan python3
+# Langkah-langkah membuat aplikasi sederhana dengan python3.
 * seperti sebelumnya buatlah folder terlebih dahulu : `mkdir-python`
+* pindah directory dengan : `cd python`
 * lalu buat file index.py : `nano index.py`
 * jika sudah masukan:
 
@@ -83,6 +84,16 @@
 # Langkah-langkah instalasi go/golang
 * buka terminal lalu langsung saja instalasi go dengan cara `sudo apt install golang`
 * lalu verifikasi versi go dengan cara : `go version`
-* 
+  
+  ![golang2](https://user-images.githubusercontent.com/90166916/134502817-bc1388fb-64f0-4fbd-8eb7-c92341efec83.png)
+  
+# Langkah-langkah membuat aplikasi sederhana dengan go/golang.
+* buka terminal 
+* lalu sama seperti sebelum-sebelumnya,buat lah folder terlebih dahulu.: `mkdir golang-app`
+* lalu pindah directory :`cd golang-app`
+* lalu buat sebuah file dengan : `nano index.go`
+* jika sudah masukan 
+
+  
 
 
