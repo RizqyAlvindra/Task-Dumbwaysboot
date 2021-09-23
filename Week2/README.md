@@ -98,8 +98,11 @@
 
 * lalu jalankan aplikasinya : `go run index.go`
 
+  ![golang4](https://user-images.githubusercontent.com/90166916/134505658-3d18b3cf-e9d2-44a4-8a8f-96c8967d8779.png)
+  
+* jika ingin di build : `go build index.go`
 
-* jika ingin di build : `
+  
   
 
 
