@@ -48,5 +48,7 @@
 * selanjutnya masukkan script `nano index.js`
 * jika sudah masukan 
   
-  
+  ![nano](https://user-images.githubusercontent.com/90166916/134495071-1a2fbe34-f897-41f2-b7bd-6f8bd8c1e822.png)
+* lalu simpan menggunakan `ctrl+x`
+* kemudian tekan `y` lalu `enter`
 
