@@ -102,7 +102,7 @@
   
 * jika ingin di build : `go build index.go`
 
-  
+  ![golang5](https://user-images.githubusercontent.com/90166916/134505688-a24651e7-5b94-4b13-b8bb-664837e9729a.png)
   
 
 
