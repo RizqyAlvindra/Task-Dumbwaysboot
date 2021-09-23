@@ -17,7 +17,7 @@
 
 * `sudo apt install golang`
 
-# Langkah-langkah instalation Node.js  
+# Langkah-langkah instalasi Node.js  
 
 * buka terminal (di tugas saya ini saya menggunakan terminal linux ubuntu)
 * pertama download curlnya dulu `sudo apt install curl`
@@ -46,7 +46,7 @@
 
   ![node js3](https://user-images.githubusercontent.com/90166916/134492790-ccbf3bff-836f-4086-855c-9eeaa2307807.png)
 * selanjutnya masukkan script `nano index.js`
-* jika sudah masukan 
+* jika sudah masukan: 
   
   ![nano](https://user-images.githubusercontent.com/90166916/134495071-1a2fbe34-f897-41f2-b7bd-6f8bd8c1e822.png)
 * lalu simpan menggunakan `ctrl+x`
@@ -56,4 +56,22 @@
   ![node js5](https://user-images.githubusercontent.com/90166916/134495621-ebb84835-1d1e-4590-87eb-c813c2a7ade2.png)
  
  * jika sudah buka web browser: `https://http://localhost:5000`
+
+   ![Screenshot from 2021-09-23 15-45-10](https://user-images.githubusercontent.com/90166916/134496119-c4fff108-b64b-497f-af10-69cd24e9ec22.png)
+   
+# Langkah-langkah instalasi python3
+* buka terminal lalu lakukan update terlebih dahulu dengan menggunakan script `sudo apt upgrade`
+* lalu update juga sistem kalian `sudo apt upgrade -y`
+* python sudah ada secara default : `python3 -v`
+* lalu install package managernya : `sudo apt install python3 -pip`
+* lalu instal flask : `sudo apt install python3-flask`
+
+# Langkah-langkah membuat aplikasi sederhana dengan python3
+* seperti sebelumnya buatlah folder terlebih dahulu : `mkdir-python`
+* lalu buat file index.py : `nano index.py`
+* jika sudah masukan:
+
+  
+
+
 
