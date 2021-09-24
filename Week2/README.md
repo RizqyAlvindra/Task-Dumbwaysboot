@@ -34,7 +34,7 @@
 
    untuk mengetahui versi berapa yang digunakan.  
   
-# Langkah-langkah membuat aplikasi sederhana menguunakan Node.js
+# Langkah-langkah membuat aplikasi sederhana menggunakan Node.js
 * buatlah sebuah folder baru dengan menggunakan script `mkdir myapp-node.js`
 * untuk pindah directory bisa menggunakan `cd myapp-nodejs`
 * buatlah file package.json : npm init-y
@@ -55,7 +55,7 @@
   
   ![node js5](https://user-images.githubusercontent.com/90166916/134495621-ebb84835-1d1e-4590-87eb-c813c2a7ade2.png)
  
- * jika sudah buka web browser: `https://http://localhost:5000`
+ * jika sudah buka web browser: `http://localhost:5000`
 
    ![Screenshot from 2021-09-23 15-45-10](https://user-images.githubusercontent.com/90166916/134496119-c4fff108-b64b-497f-af10-69cd24e9ec22.png)
    
