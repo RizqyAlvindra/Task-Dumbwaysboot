@@ -45,7 +45,7 @@
 * lalu selanjutnya install express : `npm install express --save`
 
   ![node js3](https://user-images.githubusercontent.com/90166916/134492790-ccbf3bff-836f-4086-855c-9eeaa2307807.png)
-* selanjutnya masukkan script `nano index.js`
+* selanjutnya masukkan script `nano index.js` untuk membuka teks editor
 * jika sudah masukan: 
   
   ![nano](https://user-images.githubusercontent.com/90166916/134495071-1a2fbe34-f897-41f2-b7bd-6f8bd8c1e822.png)
@@ -69,7 +69,7 @@
 # Langkah-langkah membuat aplikasi sederhana dengan python3.
 * seperti sebelumnya buatlah folder terlebih dahulu : `mkdir-python`
 * pindah directory dengan : `cd python`
-* lalu buat file index.py : `nano index.py`
+* lalu buka teks editor : `nano index.py`
 * jika sudah masukan:
 
   ![Screenshot from 2021-09-23 15-47-22](https://user-images.githubusercontent.com/90166916/134497882-21429a8b-171d-4510-8d84-71a9db558816.png)
@@ -91,7 +91,7 @@
 * buka terminal 
 * lalu sama seperti sebelum-sebelumnya,buat lah folder terlebih dahulu.: `mkdir golang-app`
 * lalu pindah directory :`cd golang-app`
-* lalu buat sebuah file dengan : `nano index.go`
+* lalu buka teks editor dengan : `nano index.go`
 * jika sudah masukan:
 
   ![gogogo](https://user-images.githubusercontent.com/90166916/134504530-6dca15cf-0d28-4ce7-b748-2f426363bdc2.png)
