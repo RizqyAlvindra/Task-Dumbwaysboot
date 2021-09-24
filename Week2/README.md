@@ -77,7 +77,7 @@
 * lalu jalankan aplikasi : `python3 index.py`
   
   ![python11](https://user-images.githubusercontent.com/90166916/134502080-ed8df0cb-cbb4-4ce9-b89c-1f9ad1341b87.png)
-* terakhir buka browser :`https://127.0.0.1:5000/`
+* terakhir buka browser :`http://127.0.0.1:5000/`
   
   ![pythonfinish](https://user-images.githubusercontent.com/90166916/134502265-9493564d-4da1-42e5-9127-ac65f2a812ac.png)
   
