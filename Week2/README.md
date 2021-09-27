@@ -135,7 +135,7 @@
 
 * `sudo apt systemctl restart nginx`
 
-
+![restart nginx](https://user-images.githubusercontent.com/90166916/134868624-36c3df41-aeeb-40bf-ad56-bb00f93cebc4.png)
 
 * `sudo apt systemctl disable nginx`
 
