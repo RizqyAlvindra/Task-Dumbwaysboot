@@ -119,7 +119,7 @@
 # Contoh penggunaan 
 * `sudo apt install nginx`
 
-
+![Screenshot from 2021-09-27 14-42-22](https://user-images.githubusercontent.com/90166916/134868422-92cc19b9-9bcd-4a82-8c48-63362aeac286.png)
 
 * `sudo apt systemctl status nginx`
 
