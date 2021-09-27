@@ -123,7 +123,7 @@
 
 * `sudo apt systemctl status nginx`
 
-
+![nginxstatus](https://user-images.githubusercontent.com/90166916/134868517-65d591b3-e590-4328-961b-68dd8970a12f.png)
 
 * `sudo apt systemctl start nginx`
 
