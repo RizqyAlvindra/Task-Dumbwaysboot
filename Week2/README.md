@@ -157,4 +157,4 @@
 # untuk melihat penggunaan storage
 * kita bisa memasukan script di terminal `df -h`
 
-
+![df-h](https://user-images.githubusercontent.com/90166916/134871363-8b7c2ff0-e606-4109-874e-6491aa902537.png)
