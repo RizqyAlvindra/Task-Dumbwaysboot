@@ -104,5 +104,38 @@
 
   ![golang5](https://user-images.githubusercontent.com/90166916/134505688-a24651e7-5b94-4b13-b8bb-664837e9729a.png)
   
+  
+ # Service Management 
+ * systemd adalah standar manager sistem linux saat ini.dan fungsinya adalah memberikan sebuah metode untuk mengaktifkan system resources, daemons serta proses lainya baik itu ketika booting maupun ketika sistem tersebeut sedang berjalan.
+ * command yang digunakan dalam systemd adalah `systemctl`
 
+# macam macam perintah dari systemd
+* Start   : Untuk menjalanlan service.
+* Restart : Untuk merestart service yang sedang berjalan.
+* Enable  : Untuk mengaktifkan service ketika boot.
+* Disable : Untuk menonaktifkan service ketika boot.
+* Status  : Untuk menampilkan status service.
+  
+# Contoh penggunaan 
+* `sudo apt install nginx`
+
+
+
+* `sudo apt systemctl status nginx`
+
+
+
+* `sudo apt systemctl start nginx`
+
+
+
+* `sudo apt systemctl enable nginx`
+
+
+
+* `sudo apt systemctl restart nginx`
+
+
+
+* `sudo apt systemctl disable nginx`
 
