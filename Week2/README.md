@@ -143,9 +143,18 @@
 
 
 # Memory Dan Storage 
-
-Memory atau RAM (Random Access Memory) adalah media penyimpanan sementara.pada sistem operasi linux,memiliki swap sebagai tambahan cadangan memory jika memory yang utama itu penuh. 
-# untuk memeriksa pengguna memory , jalankan perintah berikut :
+* Memory
+  Memory atau RAM (Random Access Memory) adalah media penyimpanan sementara.pada sistem operasi linux,memiliki swap sebagai tambahan cadangan memory jika memory  yang utama itu penuh. 
+* Storage
+  Storage adalah sebuah perangkat digital yang berfungsi untuk menyimpan berbagai macam data yang dapat disimpan dalam waktu yang tidak tertentu tergantung usia dan perawatan perangkat storage itu sendiri.
+# Untuk memeriksa pengguna memory ,jalankan perintah berikut:
 * `sudo apt install htop`
 * `htop` 
-* 
+* Berikut adalah isi dari htop :
+
+![htop](https://user-images.githubusercontent.com/90166916/134870208-c9a6aecd-1c7b-4c2a-a27c-1019b046be8f.png)
+
+# untuk melihat penggunaan storage
+* kita bisa memasukan script di terminal `df -h`
+
+
