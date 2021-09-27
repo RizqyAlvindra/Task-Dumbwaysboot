@@ -139,3 +139,13 @@
 
 * `sudo apt systemctl disable nginx`
 
+![disablenginx](https://user-images.githubusercontent.com/90166916/134868655-679c2277-b237-432f-bdd2-74ea3ea06632.png)
+
+
+# Memory Dan Storage 
+
+Memory atau RAM (Random Access Memory) adalah media penyimpanan sementara.pada sistem operasi linux,memiliki swap sebagai tambahan cadangan memory jika memory yang utama itu penuh. 
+# untuk memeriksa pengguna memory , jalankan perintah berikut :
+* `sudo apt install htop`
+* `htop` 
+* 
