@@ -127,7 +127,7 @@
 
 * `sudo apt systemctl start nginx`
 
-
+![nginxstrt](https://user-images.githubusercontent.com/90166916/134868548-87d192eb-bc1d-41c0-a911-e828ff891a18.png)
 
 * `sudo apt systemctl enable nginx`
 
