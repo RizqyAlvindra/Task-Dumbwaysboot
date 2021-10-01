@@ -261,7 +261,57 @@
   * jika sudah jalankan perintah `nmon`.
   
   ![nmon2](https://user-images.githubusercontent.com/90166916/135593209-51634509-091f-453a-8594-8af05043b17b.png)
+ 
+# Penejelasan CMS Manajer
+* CMS Manajer adalah platform yang dibuat untuk memudahkan pengguna yang tidak memiliki pengetahuan tentang server.,Dengan CMS Manajer kita bisa membuat server dengan mudah dan hanya klik saja.
+* Dibawah ini adalah tampilan website dari CMS manajer.
 
- 
+  ![cms1](https://user-images.githubusercontent.com/90166916/135601830-41ccce28-ee4d-44b7-9ed2-5488b365a23d.png)
+
+* Cara registrasi CMS Manajer Dan Membuat Aplikasi.
+  1. Pertama-tama kalian bisa buka web browser dan search `cmsmanajer.com` lalu jika sudah kalian klik tombol SIGN UP di pojok kanan atas. Jika sudah kalian Nama kalian , Email , Password , Nomer Hp , Negara ,dan Pekerjaan. Jika sudah tekan create account.
   
+  ![cms2](https://user-images.githubusercontent.com/90166916/135603218-223ed974-9c42-4a64-a39a-5f8fcdf0e77b.png)
+  
+  2. lalu kalian bisa tekan tombol Dashboard di pojok kanan atas.
+  3. Jika sudah kalian bisa tekan apps dan tekan Create App
+
+  ![cms3](https://user-images.githubusercontent.com/90166916/135603495-e8a8d9e2-24e1-4860-953b-7d36ab31a0a2.png)
+
+  4. Lalu pilih kalian ingin membuat app apa, disini ada banyak pilihan
+
+  ![cms4](https://user-images.githubusercontent.com/90166916/135603735-6e400c02-e745-4136-b21d-a3d2b24ee316.png)
+
+  5. Contoh disini saya ingin membuat aplikasi Docker.lalu langsung saja tekan create
+
+  ![cms5](https://user-images.githubusercontent.com/90166916/135603884-a8658651-593e-4b0a-b0b3-d2cf5d9d242b.png)
+
+  6. Lalu tunggu saja. pembuatan tidak terlalu lama tergantung internet masing-masing.
+  
+  ![cms6](https://user-images.githubusercontent.com/90166916/135604233-0740c8e0-2bea-439f-b966-da8b5bbd49e2.png)
+
+  7. Jika sudah cek di app dan sudah jadi.
+  
+  ![cms7](https://user-images.githubusercontent.com/90166916/135604634-aa959049-5a1c-4da7-9a86-a6e8497fa0d0.png)
+  
+  ![cms8](https://user-images.githubusercontent.com/90166916/135604656-a59e43cf-a6ab-4320-8e63-e4fb3faee90e.png)
+
+# Cara menghubungkan server di CMS Manajer
+* Ke Dashboard lalu tekan Connect Server.
+* Disini kalian bisa memilih web server yang ingin digunakan.atau jika belum tau ingin menggunakan web server yang mana kalian bisa memilih i'll choose later.
+* Kemudian ada Server Name . Tulis saja nama server yang ingin kalian gunakan.
+* Kemudian ada Ip Address isi Ip address yang sudah ditentukan masing masing
+
+  ![cms9](https://user-images.githubusercontent.com/90166916/135605394-4a0eb7ac-a236-4cb7-841a-dd051c236bc0.png)
  
+* Lalu centang ssh key jika kalian ada code ssh untuk digunakan.
+
+  ![cms10](https://user-images.githubusercontent.com/90166916/135606898-c685d06b-0122-4af5-87c2-5a069afacbd2.png)
+
+* jika tidak bisa lanjutkan ke tahapan selanjutnya yaitu password.
+* Jika sudah tunggu sampai pembuatan selesai
+* jika sudah selesai akan otomatis masuk ke dasboard dengan nama server yang kalian tentukan tadi.
+
+![cms12](https://user-images.githubusercontent.com/90166916/135607279-36a34aa4-72b8-409e-9dd0-bc2f7dfb026a.png)
+
+![cms11](https://user-images.githubusercontent.com/90166916/135607316-10a4b81d-ff12-4286-b4ce-433c3b67a279.png)
