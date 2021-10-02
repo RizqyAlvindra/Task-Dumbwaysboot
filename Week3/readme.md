@@ -21,11 +21,11 @@
 # Macam-Macam shortcut Nano
 * `ctrl X` untuk keluar dari editor.
 
-![4nano](https://user-images.githubusercontent.com/90166916/135576117-71d0360a-20d8-4a31-ab38-05974621f622.png)
-
 * `ctrl O` untuk mengubah nama file , tetapi juga bisa untuk save tanpa harus mengubah nama file , tekan saja `Enter` tetapi jika menggunakan ini kalian tidak akan keluar dari editor.
 
 ![5nano](https://user-images.githubusercontent.com/90166916/135576137-56d3edee-59ba-4965-bebc-2d0cf4751c1d.png)
+
+![4nano](https://user-images.githubusercontent.com/90166916/135576117-71d0360a-20d8-4a31-ab38-05974621f622.png)
 
 * `ctrl W` untuk mencari teks , contoh anda ingin mencari `FROM golang` secara otomatis anda akan di arahkan ke line yang ingin anda cari.
 
