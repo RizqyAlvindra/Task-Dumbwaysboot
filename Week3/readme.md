@@ -85,9 +85,9 @@
 
 ![cat5](https://user-images.githubusercontent.com/90166916/135578264-10104a8f-8cae-43a2-bf45-24139c2eae40.png)
 
-* sed(stream editor) adalah suatu perintah yang dapat melakukan manipulasi teks dasar pada file dengan cepat.
-
 ![cat6](https://user-images.githubusercontent.com/90166916/135578282-fd617dca-da62-4266-8376-1aa7e69499a8.png)
+
+* sed(stream editor) adalah suatu perintah yang dapat melakukan manipulasi teks dasar pada file dengan cepat.
 
   Contoh penggunaan:
   1. `sed -i 's/hello/holla/g' file.alvin3` untuk mengganti kata hello menjadi holla di file.alvin ke 3.
