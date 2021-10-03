@@ -242,7 +242,7 @@
   
   ![vmstat2](https://user-images.githubusercontent.com/90166916/135590139-926641ec-8006-43b3-9926-f921953b05fb.png)
   
-  * Gunakan vmstat `-sSM ` agar mudah dibaca.
+  * Gunakan ` vmstat -sSM ` agar mudah dibaca.
   
   ![vmstat3](https://user-images.githubusercontent.com/90166916/135590435-9f7ea9f7-04d0-4c32-9541-e015679f1a17.png)
 
