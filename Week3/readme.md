@@ -161,7 +161,7 @@
      ![lsof2](https://user-images.githubusercontent.com/90166916/135583385-c59d4023-7e5c-4e14-a153-d9f27eb46e16.png)
 
                          
-      3. `lsof -i:80` untuk menampilkan proses berjalan yang menggunakan port:80
+      3. `lsof -i:80` untuk menampilkan proses berjalan yang menggunakan port:8000
       
       
     ![lsof3](https://user-images.githubusercontent.com/90166916/135583436-861c2606-eb1c-4a6d-9a30-0689a14dd180.png)
