@@ -246,7 +246,7 @@
   
   ![vmstat3](https://user-images.githubusercontent.com/90166916/135590435-9f7ea9f7-04d0-4c32-9541-e015679f1a17.png)
 
-  * `vmstat 2 4` untuk menampilkan data "2" detik sebanyak "4" kali.
+  * `vmstat 2 4` untuk menampilkan data per "2" detik sebanyak "4" kali.
   
   ![vmstat4](https://user-images.githubusercontent.com/90166916/135590897-982bb348-01d6-45ff-803e-b013e39285b0.png)
   
