@@ -308,7 +308,7 @@
 
   ![cms10](https://user-images.githubusercontent.com/90166916/135606898-c685d06b-0122-4af5-87c2-5a069afacbd2.png)
 
-* jika tidak bisa lanjutkan ke tahapan selanjutnya yaitu password.
+* jika tidak menggunakan ssh key bisa lanjutkan ke tahapan selanjutnya yaitu password.
 * Jika sudah tunggu sampai pembuatan selesai
 * jika sudah selesai akan otomatis masuk ke dasboard dengan nama server yang kalian tentukan tadi.
 
