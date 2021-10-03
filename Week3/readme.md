@@ -112,7 +112,7 @@
  * sort adalah perintah untuk mengurutkan data secara ascending maupun descending. 
 
   Contoh penggunaan:
-  1. `sort file .alvin3` urutan dari yang terkecil hingga terbesar.
+  1. `sort file.alvin3` urutan dari yang terkecil hingga terbesar.
 
   ![sort1](https://user-images.githubusercontent.com/90166916/135579583-eb4dbb96-ea6b-4217-9377-36fea1603306.png)
 
