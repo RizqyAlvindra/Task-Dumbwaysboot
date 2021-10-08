@@ -71,7 +71,7 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
 
 * git commit adalah perintah untuk melakukan commit pada perubahan ke head
           
-    * contoh `git commit -m "tugas devops git"` untuk melakukan commmit.
+    * contoh `git commit -m "tugas devops git"` untuk melakukan commit.
     
       ![commit1](https://user-images.githubusercontent.com/90166916/136317188-dfb692e2-abd1-4bce-9448-638abe65bff9.png)  
       
@@ -175,6 +175,9 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
   * lalu saya menginstall git terlebih dahulu `sudo apt install git-y`, jika sudah bisa di cek menggunakan `ls -a`
   * lalu disini saya membuat sebuah file yang bernama `touch main.go`.
   * lalu saya membuka teks editor untuk mengisi perintah untuk menjalankan hello world.
+  * masukan `git status` untuk melihat daftar file.
+  * jika sudah masukan perintah `git add .` untuk menambahkan file ke index.
+  * lalu bisa di cek menggunakan `git status` 
   * 
   *  
   
