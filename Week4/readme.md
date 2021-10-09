@@ -169,17 +169,187 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
 
 
 # Buatlah study case melakukan git merge dari branch development ke staging kemudian production.
-* contoh study case saya disini adalah ingin menambahkan suatu file yang berisi script untuk menjalankan helloworld di development untuk di kirimkan ke staging dan production.
+* contoh study case saya disini adalah ingin menambahkan suatu file yang berisi script untuk menjalankan helloworld di main untuk di kirimkan ke develpoment, staging dan production.
   * Pertama tama disini saya membuat repository baru dulu di github dengan menggunakan nama studycase.
-  * lalu saya membuat directory baru di terminal yaitu `git init gitcase` lalu masuk ke directory gitcase.
-  * lalu saya menginstall git terlebih dahulu `sudo apt install git-y`, jika sudah bisa di cek menggunakan `ls -a`
-  * lalu disini saya membuat sebuah file yang bernama `touch main.go`.
-  * lalu saya membuka teks editor untuk mengisi perintah untuk menjalankan hello world.
-  * masukan `git status` untuk melihat daftar file.
-  * jika sudah masukan perintah `git add .` untuk menambahkan file ke index.
-  * lalu bisa di cek menggunakan `git status` 
-  * 
-  *  
-  
 
+    ![studycase1](https://user-images.githubusercontent.com/90166916/136515493-690e06d7-0824-4d9a-9204-90b403842c7b.png)
+
+
+  * lalu saya membuat directory baru di terminal yaitu `git init gitcase` .
+
+    ![studycase2](https://user-images.githubusercontent.com/90166916/136515510-999069a8-69b0-409c-b4e1-b3742de6b580.png)
+
+
+  * lalu masuk ke directory yang kalian buat tadi `cd gitcase`.
+
+    ![studycase3](https://user-images.githubusercontent.com/90166916/136515527-e0ab8915-1591-4f01-9535-01c9fc03121d.png)
+
+
+  * lalu saya menginstall git terlebih dahulu `sudo apt install git-y`, jika sudah bisa di cek menggunakan `ls -a`
+  
+    ![studycase4](https://user-images.githubusercontent.com/90166916/136515530-e2b291a2-e3fb-4c4d-be74-ee4314a63e56.png)
    
+    ![studycase5](https://user-images.githubusercontent.com/90166916/136515533-cde82866-3d15-476a-b48a-ab9e7350c54d.png)
+
+  
+  * lalu disini saya membuat sebuah file yang bernama `touch main.go`.
+  
+    ![studycase6](https://user-images.githubusercontent.com/90166916/136515534-f7e79ca6-78f2-4648-963d-a105638d629d.png)
+ 
+  
+  * lalu saya membuka teks editor untuk mengisi perintah untuk menjalankan hello world.
+  
+    ![studycase7](https://user-images.githubusercontent.com/90166916/136515535-4152aab9-c75c-420e-8fcb-b33b4729091d.png)
+  
+  * masukan `git status` untuk melihat daftar file.
+  
+    ![studycase8](https://user-images.githubusercontent.com/90166916/136515539-8156f844-89f5-4fb4-b2ae-124ce59b22a4.png)
+  
+  * jika sudah masukan perintah `git add .` untuk menambahkan file ke index.
+  
+    ![studycase9](https://user-images.githubusercontent.com/90166916/136515540-27c8479f-b3d4-4612-a94d-9ba9da6cb6e7.png)
+  
+  * lalu bisa di cek menggunakan `git status` 
+  
+    ![studycase10](https://user-images.githubusercontent.com/90166916/136515541-1b5ca863-60fc-40b1-a29c-4cf86b648b6d.png)
+
+  
+  * `git commit -m "studycase"` untuk melakukan commit.
+  
+    ![studycase11](https://user-images.githubusercontent.com/90166916/136515547-87500bde-87c7-42a2-883e-9a9eacae8059.png)
+  
+  * lalu cek lagi menggunakan `git status`.
+  
+    ![studycase12](https://user-images.githubusercontent.com/90166916/136515548-85bf75b5-89b8-42d7-91e1-a6c95b8acd2c.png)
+
+  
+  * lalu disini saya membuat branch yang bernama `main` dengan `git branch -m main`
+  
+    ![studycase13](https://user-images.githubusercontent.com/90166916/136515553-38b5cd1a-d0ee-48e4-ba89-ee93176138d7.png)
+  
+  * lalu saya menggunakan git remote untuk menghubungkan user ke remote repository `git remote add add origin git@github.com:RizqyAlvindra/studycase.git`.
+  
+    ![studycase14](https://user-images.githubusercontent.com/90166916/136515555-cc6c0b47-055f-4cf3-9502-bdb5bc6834a3.png)
+  
+  * pertama tama disini saya push terlebih dahulu branch main `git push -u origin main` .
+  
+    ![studycase15](https://user-images.githubusercontent.com/90166916/136515557-09023c2d-dd79-4616-98ed-bd6139036f8f.png)
+
+  
+  * setelahnya saya membuat beberapa branch. yaitu Development , Staging ,dan Production.
+  
+    ![studycase16](https://user-images.githubusercontent.com/90166916/136515561-89805b3c-1f04-434a-b6fa-a2f449fc99a0.png)
+  
+  * untuk mengecek bisa menggunakan `git branch -a` untuk melihat daftar branch apa saja yang ada.
+  
+    ![studycase17](https://user-images.githubusercontent.com/90166916/136515564-36996d5b-0f8b-4477-bc12-ac8c90e6ca6d.png)
+  
+  * lalu disini saya pindah branch terlebih dahulu menggunakan `git checkout Staging`
+  
+    ![studycase18](https://user-images.githubusercontent.com/90166916/136515568-e13d07a0-1528-451a-b0ed-94f28039d6d2.png)
+
+  
+  * lalu saya menggunakan git merge untuk menggabungkan sebuah branch ke branch aktif. `git merge Development` , `git merge Staging` ,dan `git merge Production`.
+  
+    ![studycase19](https://user-images.githubusercontent.com/90166916/136515573-58911152-725c-468c-a5e0-95807485b921.png)
+
+    ![studycase20](https://user-images.githubusercontent.com/90166916/136515577-4e8c46e8-edba-427a-9722-9636bf09dfe3.png)
+
+    ![studycase21](https://user-images.githubusercontent.com/90166916/136515584-52674bfa-c40b-42a7-bb9d-ed6598af11ea.png)
+  
+  * jika sudah, saya akan push satu-persatu. `git push origin Development` , `git push origin Staging` ,dan `git push origin Production`.
+  
+    ![studycase22](https://user-images.githubusercontent.com/90166916/136515589-7bf874fb-897b-4225-b45f-eef7777db6cc.png)
+
+    ![studycase23](https://user-images.githubusercontent.com/90166916/136515593-292b9aa3-6511-4540-bd85-32862e36413d.png)
+
+    ![studycase24](https://user-images.githubusercontent.com/90166916/136515595-5ff35ab3-68d7-446f-9474-2db907febbac.png)
+  
+  * jika sudah selesai kalian bisa cek di github kalian,lalu cek di masing masing branch ,dan semua branch sudah ada file `main.go` . 
+    
+    ![studycase25](https://user-images.githubusercontent.com/90166916/136515597-5a11e16f-e965-4c6f-8784-e6da39132755.png)
+
+    ![studycase26](https://user-images.githubusercontent.com/90166916/136515601-91ac4abc-ae45-47d8-93a0-9c1547cd42c0.png)
+
+    ![studycase27](https://user-images.githubusercontent.com/90166916/136515602-ad7446d1-5fba-436c-a83f-25b77aa1ad93.png)
+
+
+# Buatlah dokumentasi reverse proxy berdasarkan aplikasi yang telah dibuat pada minggu ke 2.
+  * pertama tama disini saya install terlebih dahulu multipass `sudo snap install multipass`
+  
+    ![al1](https://user-images.githubusercontent.com/90166916/136653544-d4213c85-fd16-4a00-a15b-f4214725b7ac.png)
+
+  * lalu saya membuat server dengan nama alvin menggunakan perintah `multipass launch --name alvin`
+  
+    ![al2](https://user-images.githubusercontent.com/90166916/136653675-8913a11b-1df0-4e80-a253-35e47971b7f1.png)
+
+  * jika sudah bisa cek dengan menggunakan perintah `multipass ls`
+  
+    ![al3](https://user-images.githubusercontent.com/90166916/136653768-d67932ec-b9c7-4457-bc83-83fa8c17a127.png)   
+  
+  * setelahnya bisa masuk ke server dengan menggunakan perintah `multipass shell alvin`
+
+    ![al4](https://user-images.githubusercontent.com/90166916/136653840-04ee8c59-4776-4693-ab26-84c0f038590d.png)
+
+  * lalu install nginx terlebih dahulu. `sudo apt install nginx`
+  
+    ![al5](https://user-images.githubusercontent.com/90166916/136653889-8d908841-31c6-4b9a-96c6-7dc5f16b8533.png)
+  
+  * `sudo systemctl status nginx` untuk melihat status nginx.
+  
+    ![al6](https://user-images.githubusercontent.com/90166916/136653964-036c4171-5d2d-4f7e-abf8-074f4ae193dc.png)
+  
+  * lalu masuk sistem dengan cara ` cd /etc/nginx/ ` lalu disini saya membuat directory dengan nama nodejs-week2 `mkdir nodejs-week2`.
+  
+    ![al7](https://user-images.githubusercontent.com/90166916/136654133-9b763d34-f056-47e2-a020-d115312d3d48.png)  
+  
+    ![al8](https://user-images.githubusercontent.com/90166916/136654140-df3964f3-38cb-469f-9212-c109d7fe320e.png)
+  
+  * jika sudah masuk ke teks editor `sudo nano nginx.conf` lalu beri tambahan di bagian include dengan `include /etc/nginx/node-week2/*;` jika sudah lalu keluar dengan menggunakan `ctrl X` lalu tekan `Y` dan `Enter`.
+  
+    ![al9](https://user-images.githubusercontent.com/90166916/136654385-e0b07246-c7ee-4654-9119-73b84f55c013.png)
+  
+  * selanjutnya adalah masuk ke dalam drirectory nodejs-week2 , lalu masukan perintah `sudo nano tugas` dan masukan script seperti contoh di bawah.
+    
+    ![al10](https://user-images.githubusercontent.com/90166916/136654516-bcda31cb-8837-45dd-8aa0-c23286d1e600.png)
+
+    ![al11](https://user-images.githubusercontent.com/90166916/136654520-0a381b15-096e-4986-be36-7fae0dec7477.png)
+    
+  * jika sudah lalu keluar menggunakan `ctrl X` lalu tekan`Y` setelah itu`Enter` untuk keluar.
+  * lalu keluar dari directory `cd` lalu masukan perintah `sudo nano /etc/hosts` . lalu tambahkan ip local kalian dan nama server kalian tadi (domainprivate.xyz)
+  
+    ![al12](https://user-images.githubusercontent.com/90166916/136654664-8c8a046f-23bb-44be-b676-5189c1eb66c5.png)
+  
+  * jika sudah buat file index.js `nano index.js` dan masukan script seperti tugas minggu ke 2. 
+  
+  ![al13](https://user-images.githubusercontent.com/90166916/136654750-8252f6a0-3198-4f0c-b8a0-95c7a2673d03.png)
+  
+  * lalu download terlebih dahulu node.js nya `curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -` lalu `sudo apt-get install -y nodejs`. lalu bisa cek menggunakan `node -v`
+  
+    ![al14](https://user-images.githubusercontent.com/90166916/136654802-249a6340-af67-4599-bf37-59a9d2d5323c.png)
+  
+    ![al15](https://user-images.githubusercontent.com/90166916/136654874-b0abafb8-8db8-428d-a512-0c5dc38c8bba.png)
+  
+    ![al16](https://user-images.githubusercontent.com/90166916/136654876-1ea7354d-3c2d-449f-8113-96a73d02da20.png)
+    
+  * lalu restart nginx `sudo systemctl restart nginx` 
+
+    ![al17](https://user-images.githubusercontent.com/90166916/136654992-ecff17b9-3487-483b-8584-9fe19f84357a.png)
+
+  * lalu kalian bisa melihat nginx kalian dengan cara buka web browser lalu masukan name server tadi yatu `domainprivate.xyz`
+
+    ![proxy2](https://user-images.githubusercontent.com/90166916/136655134-82b76fc8-84a9-4b08-a0f1-ac235ef28bcd.png)
+
+  * lalu untuk menjalankan apk tadi jalankan perintah `node index.js` 
+
+    ![al18](https://user-images.githubusercontent.com/90166916/136655213-8e605797-acb2-4a00-9570-db5cd317a99e.png)
+
+  * jika sudah cek web browser dengan memasukan ip server anda terlebih dahulu lalu portnya `10.206.130.237:5000`
+
+    ![proxy3](https://user-images.githubusercontent.com/90166916/136655138-771575e9-d4b5-493f-bc33-2bc07bea5fcd.png)
+
+  * lalu terakhir tambah lagi di tab browser kalian dan masukan `domainprivate.xyz:5000`
+
+    ![proxy1](https://user-images.githubusercontent.com/90166916/136655111-90e30d14-ec1f-41a6-a408-8a8d5aae75e2.png)
+
+
