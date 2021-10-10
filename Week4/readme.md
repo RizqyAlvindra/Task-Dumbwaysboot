@@ -137,7 +137,7 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
 
       ![ddd](https://user-images.githubusercontent.com/90166916/136341626-07361194-f6f7-4a9d-b0a0-a6f03d9dc878.png)
 
-    * lalu disini saya memasukan nama file dengan `alvinnew` dan isinya adalah `Tugas DevOps Week 4` lalu tekan commit changes.
+    * lalu disini saya memasukan nama file dengan `alvin` dan isinya adalah `Tugas DevOps Week 4` lalu tekan commit changes.
 
       ![newfile git](https://user-images.githubusercontent.com/90166916/136341617-9648c5d7-a876-4956-81e2-c4c44409d18b.png)
       
