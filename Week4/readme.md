@@ -82,6 +82,9 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
 * git remote adalah perintah git untuk membuat user terhubung ke remote repository. 
   
   `git remote -v` adalah perintah untuk menampilkan repository yang sedang konfigurasi.
+  
+  ![gitremote-v](https://user-images.githubusercontent.com/90166916/136683316-60f72efb-cedd-45fa-aed2-838f7d2a1714.png)
+  
      
     * Contoh disini kita akan melakukan remote pada layanan github.
     * pertama tama kalian buat repository github disini saya menggunakan nama tugasdevopsweek4
