@@ -119,7 +119,7 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
       ![git checkout](https://user-images.githubusercontent.com/90166916/136336686-8ff3208f-65e4-457c-8098-ac8aadd580d0.png)
       
     * lalu masukan perintah ` git add . `
-    * jika sudah masukan perintah selanjutnya yaitu `git commit -m "update contoh"
+    * jika sudah masukan perintah selanjutnya yaitu `git commit -m "update contoh"`
 
       ![gitcommit](https://user-images.githubusercontent.com/90166916/136337579-1b332e52-0c75-4753-bc46-234af5a47e10.png)
 
