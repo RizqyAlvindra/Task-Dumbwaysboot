@@ -339,7 +339,7 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
 
     ![al17](https://user-images.githubusercontent.com/90166916/136654992-ecff17b9-3487-483b-8584-9fe19f84357a.png)
 
-  * lalu kalian bisa melihat nginx kalian dengan cara buka web browser lalu masukan name server tadi yatu `domainprivate.xyz`
+  * lalu kalian bisa melihat nginx kalian dengan cara buka web browser lalu masukan name server tadi yaitu `domainprivate.xyz`
 
     ![proxy2](https://user-images.githubusercontent.com/90166916/136655134-82b76fc8-84a9-4b08-a0f1-ac235ef28bcd.png)
 
