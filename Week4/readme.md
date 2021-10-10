@@ -302,7 +302,7 @@ jika sudah selesai kalian bisa mengecek git kalian menggunakan perintah `git --v
   
     ![al6](https://user-images.githubusercontent.com/90166916/136653964-036c4171-5d2d-4f7e-abf8-074f4ae193dc.png)
   
-  * lalu masuk sistem dengan cara ` cd /etc/nginx/ ` lalu disini saya membuat directory dengan nama nodejs-week2 `mkdir nodejs-week2`.
+  * lalu masuk sistem dengan cara ` cd /etc/nginx/ ` lalu disini saya membuat directory dengan nama nodejs-week2 `sudo mkdir nodejs-week2`.
   
     ![al7](https://user-images.githubusercontent.com/90166916/136654133-9b763d34-f056-47e2-a020-d115312d3d48.png)  
   
