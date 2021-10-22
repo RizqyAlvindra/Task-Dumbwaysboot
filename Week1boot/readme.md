@@ -93,8 +93,21 @@
   
   ![vmconf](https://user-images.githubusercontent.com/90166916/138400427-ff2d09a6-c6e4-4775-8fee-351a9ed69e11.png)
  
-  
-  
+ 24. lalu masukan ip kalian masing masing dan angka gateway terakhir 255 di ganti dengan 1.
+
+
+  ![vmwarenewip](https://user-images.githubusercontent.com/90166916/138385640-fb9cc6cc-decb-4ce8-9ffb-2fb0d6fe633f.png)
+
+ 25. jika sudah kalian ganti kalian bisa gunakan perintah `netplan apply` untuk mengkonfirmasi ip yang sudah kalian ubah tadi.
+ 26. lalu tes dengan menggunakan perintah `ping google.com` , jika bisa maka akan keluar perintah seperti dibawah.
+ 
+  ![vmdone](https://user-images.githubusercontent.com/90166916/138401755-051248e0-b2b6-4a6d-a146-cb7804cea6d0.png)
+
+ 27. sekarang kita coba masuk menggunakan ssh lewat terminal `ssh alvin@192.168.1.120` (untuk keluar dari server kalian bisa menggunakan perintah `logout`.
+
+  ![vmdone2](https://user-images.githubusercontent.com/90166916/138401733-c8afb8fb-8918-43c6-973d-8a138d4c405c.png)
+
+ 28. jika kalian belum bisa connect maka anda harus kembali ke `cd /etc/netplan` `sudo nano 00-installer-config.yaml` untuk mengganti ip kalian karena mungkin ip kalian sudah ada yang menggunakan jadi tidak bakalan bisa menggunakan ip tersebut jadi kalian bisa setting terserah kalian dan jika saat di ping masih tidak bisa connect maka ulangi lagi tahapan ini`.  
   
   
   
