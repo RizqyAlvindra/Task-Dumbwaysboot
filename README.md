@@ -8,4 +8,4 @@
 [Tugas DevOps4](Week4)
 
 # Dumbways boot 
-.[Dumbways boot DevOps Task1]
+.[Dumbways boot DevOps Task1](boot week1)
