@@ -110,10 +110,47 @@
  28. jika kalian belum bisa connect maka anda harus kembali ke `cd /etc/netplan` `sudo nano 00-installer-config.yaml` untuk mengganti ip kalian karena mungkin ip kalian sudah ada yang menggunakan jadi tidak bakalan bisa menggunakan ip tersebut jadi kalian bisa setting terserah kalian dan jika saat di ping masih tidak bisa connect maka ulangi lagi tahapan ini`.  
   
   
+# Frontend and Reverse Proxy server aplikasi dumbsound
+
+  Sebelumnya apa sih reverse proxy itu ?
   
+  Jadi Reverse Proxy merupakan sebuah fitur/modul di dalam sebuah webserver, yang berfungsi untuk melakukan port forwarding suatu request, dari public request menuju ke dalam sistem.
   
+  Ditugas mingguan kali ini kita mendapatkan tugas untuk mendeploy aplikasi dumbsound di server yang telah kita buat tadi.
   
+1. Frontend dumbsound  
   
+ * pertama tama kalian bisa buka terminal kalian lalu kalian bisa masuk ke server yang tadi sudah kalian buat. contoh punya saya disini adalah `ssh alvin@192.168.1.120` lalu masukan password kalian.
+
+   ![dwply1](https://user-images.githubusercontent.com/90166916/138571585-6e5572c5-9779-4925-beac-419e91bc2a94.png)
+   
+   ![dwply2](https://user-images.githubusercontent.com/90166916/138571587-33fb290d-2450-472d-ab6d-0d26e00ced3d.png)
+
+
+ * lalu kalian bisa menggunakan perintah `git clone https://github.com/sgnd/dumbplay-frontend.git` untuk mengclone aplikasi yang nanti akan kita kerjakan.
+ * jika sudah kalian bisa meng install node js menggunakan perintah `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash` 
+ * lalu masukan masukan perintah `exec bash`
+ * jika sudah terinstall kalian bisa cek menggunakan perintah `nvm -v` 
+ * kemudian kita install node.js `nvm install 14`.
+ * untuk cek version kita bisa menggunakan perintah `node -v` lalu untuk mengecek npm bisa menggunakan perintah `npm -v`.
+
+   ![Screenshot from 2021-10-24 04-08-26](https://user-images.githubusercontent.com/90166916/138571654-01b9edde-8d0d-4352-8f89-0c372bf43ece.png)
+
+ * jika sudah kalian bisa masuk ke directory yang tadi kita clone `cd dumbplay-frontend`
+ * lalu masukan perintah `npm install`
+
+   ![dwply3](https://user-images.githubusercontent.com/90166916/138571588-b252daaa-4c55-43e6-b040-9f6af30787e8.png)
+
+ * setelahnya `npm start`
+
+   ![dwply4](https://user-images.githubusercontent.com/90166916/138571589-9558164d-9f54-46ba-b7ea-05dd564d5726.png)
+
+   ![dwply5](https://user-images.githubusercontent.com/90166916/138571590-7ed7cb3a-cc1c-4f7d-b246-81ca5c9e5894.png)
+
+ * jika sudah kalian bisa cek di web browser kalian lalu masukan ip kalian setelah itu masukan port si aplikasi `192.168.1.120:3000`
+  
+   ![dwfrntend](https://user-images.githubusercontent.com/90166916/138571757-c50f1f26-7008-4d91-a4af-ecb51c2f7a98.png)
+
   
   
   
