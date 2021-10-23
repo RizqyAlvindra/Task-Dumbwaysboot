@@ -199,13 +199,45 @@
    ![dwplayreverseproxy](https://user-images.githubusercontent.com/90166916/138573405-517917f9-b57b-482e-9f16-34cdf6476863.png)
 
   
-  
-  
-  
-  
-  
-  
-  
+# AWS 
+ 1. Create server and set up server
+ 2. Server for application
+ 3. Reverse proxy
+ 4. Custom domain
+ 5. Ssl configuration
+
+
+1. Create server and set up server
+ 
+ * pertama kalian bisa buka aws educate kalian.
+ * lalu tekan saja `go to classroom`
+ * lalu tekan `continue`
+ * jika sudah kalian akan di arahkan ke `https://labs.vocareum.com/main/main.php?m=editor&nav=1&asnid=505547&stepid=505548`
+ * jika sudah langsung saja tekan `aws console` untuk masuk ke AWS.
+ * lalu tekan saja pilihan luncurkan virtual machine.
+
+   ![aws1](https://user-images.githubusercontent.com/90166916/138573828-67ad6911-9b68-48ba-a4ea-f49cb74c2a5e.png)
+ 
+ * setelah itu cari ubuntu.
+
+   ![aws2](https://user-images.githubusercontent.com/90166916/138573865-3690a812-ddec-41cb-8e96-23e7bf424068.png)
+ 
+ * jika sudah kalian bisa pilih `ubuntu server 20.4LTS` lalu tekan saja select.
+ * lalu kalian bisa memilih yang `t2.micro` jika sudah tekan `next: configure instance details`
+ 
+   ![aws3](https://user-images.githubusercontent.com/90166916/138573923-9448a1d7-35b1-4e6a-9e4f-e1abf7aa8c9a.png)
+
+ * selanjutnya pastikan pilihan `number of instance` dan `auto-assign Public ip` sudah sama seperti gambar di bawah.
+
+  ![aws4](https://user-images.githubusercontent.com/90166916/138574015-01237b1b-1e52-4049-99a2-67fae098b085.png)
+
+ * jika sudah tekan saja `next:add storage:`
+ * dibagian add storage ini kalian bisa mengatur storage yang kalian butuhkan sendiri tetapi secara default kalian akan diberi storage sebanyak 8gb. disini kita akan menggunakan defaultnya saja, jadi tekan saja next.
+
+  ![aws5](https://user-images.githubusercontent.com/90166916/138574131-81ac2904-c726-4381-a347-75ac5adb3575.png)
+
+ * selanjutnya ada bagian tags disini kalian bisa skip saja `next`
+ * sedikit penjelasan disini  
   
   
   
