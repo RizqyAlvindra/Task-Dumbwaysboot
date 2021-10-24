@@ -206,8 +206,7 @@
  4. Custom domain
  5. Ssl configuration
 
-
-1. Create server and set up server
+1.. Create server and set up server
  
  * pertama kalian bisa buka aws educate kalian.
  * lalu tekan saja `go to classroom`
