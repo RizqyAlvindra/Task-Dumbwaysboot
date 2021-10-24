@@ -107,7 +107,7 @@
 
   ![vmdone2](https://user-images.githubusercontent.com/90166916/138401733-c8afb8fb-8918-43c6-973d-8a138d4c405c.png)
 
- 28. jika kalian belum bisa connect maka anda harus kembali ke `cd /etc/netplan` `sudo nano 00-installer-config.yaml` untuk mengganti ip kalian karena mungkin ip kalian sudah ada yang menggunakan jadi tidak bakalan bisa menggunakan ip tersebut jadi kalian bisa setting terserah kalian dan jika saat di ping masih tidak bisa connect maka ulangi lagi tahapan ini`.  
+ 28. jika kalian belum bisa connect maka anda harus kembali ke `cd /etc/netplan` `sudo nano 00-installer-config.yaml` untuk mengganti ip kalian karena mungkin ip kalian sudah ada yang menggunakan jadi tidak bakalan bisa menggunakan ip tersebut karena akan terjadi bentrok. jadi kalian bisa setting terserah kalian dan jika saat di ping masih tidak bisa connect maka ulangi lagi tahapan ini`.  
   
   
 # Frontend and Reverse Proxy server aplikasi dumbsound
