@@ -237,14 +237,51 @@
   ![aws5](https://user-images.githubusercontent.com/90166916/138574131-81ac2904-c726-4381-a347-75ac5adb3575.png)
 
  * selanjutnya ada bagian tags disini kalian bisa skip saja `next`
- * sedikit penjelasan disini  
+ * kemudian masuk kebagian security grup disini security grup adalah firewall disini ada 2 cara yaitu membuat baru dan existing.
+ * disini security groupname nya ku setting dengan nama`DumbWaysBootWeek1`
+ * lalu karena kita nantinya akan membuat reverse proxy untuk si aplikasi kita nanti kita memerlukan.ssh untuk login ke server(port:20) http(nginx port:80) ,https(port:443) jadi kalian tambahkan saja rule seperti berikut.
+
+  ![aws6](https://user-images.githubusercontent.com/90166916/138587130-db45f988-aaa8-486c-ac26-ff090fe616fe.png)
+
+ * lalu disini ada pilihan source. source disini jika kalian setting `0.0.0.0/0` seperti gambar diatas, ini menandakan bisa diakses dari manapun.
+ * jika sudah kalian bisa langsung saja tekan `review and lunch`.
+ * selanjutnya disini kalian bisa melihat detail dari yang kalian set up tadi. 
+
+  ![aws7](https://user-images.githubusercontent.com/90166916/138587196-3c580fc6-e4e6-461f-aaed-4bfb09dab677.png)
+
+ * jika sudah langsung tekan saja`launch`
+ * setelah disini kalian diminta untuk memilih keypair , langsung saja disini pilih `create a new keypair` lalu pilih yang `RSA` setelahnya masukan nama keypair anda dengan nama `dumbways`. lalu tekan `download keypair` jika sudah kalian bisa simpan baik baik keypair anda karena ini untuk login kedalam server.
+
+  ![aws8](https://user-images.githubusercontent.com/90166916/138587683-e7a013c8-f854-41fd-a19f-b806c52c7a86.png)
+
+  ![aws9](https://user-images.githubusercontent.com/90166916/138587664-0ba2656d-d626-4fab-b98a-dbcd601da94f.png)
   
-  
-  
-  
-  
-  
-  
+ * jika sudah tekan `launch instance`.
+ * tunggu hingga proses build selesai.
+ * jika proses telah selesai maka akan seperti tampilan gambar di bawah.
+
+  ![aws10](https://user-images.githubusercontent.com/90166916/138588328-be38e11a-8fff-42a7-9f00-db20612d2ce9.png)
+ 
+ *  jangan lupa untuk diberi nama dengan `gateway`.
+ *  sekarang kita harus set ip static menggunakan elastic ip.
+ *  kalian pergi ke pilihan `elastic IPs` lalu kalian tekan `alokasi alamat ip elastis` lalu langsung saja tekan `alokasikan`.
+
+   ![aws11](https://user-images.githubusercontent.com/90166916/138589084-8d97f223-f8f0-4201-9a9d-8367befcbf4e.png)
+
+   ![aws12](https://user-images.githubusercontent.com/90166916/138589085-5cbf97a1-25d4-45cc-be4c-802b4ebdcfe6.png)
+
+ *  jika sudah terbuat kalian bisa pergi ke pilihan `Tindakan` lalu kalian bisa pilih kaitkan alamat ip elastis`.
+
+   ![aws13](https://user-images.githubusercontent.com/90166916/138589086-9cac25a0-122d-406f-9b97-e327a9e4bb0f.png)
+
+ *  lalu di bagian instans kalian bisa pilih server yang kalian buat tadi. jika sudah tekan `kaitkan`
+
+   ![aws14](https://user-images.githubusercontent.com/90166916/138589088-ad0eedd8-3c8a-4ca3-8af2-76d2f3399f8b.png)
+
+ *  lalu kalian bisa kembali ke instances dan kalian bisa lihat elastic ip sudah kelihatan di server kalian tadi.
+ 
+   ![aws15](https://user-images.githubusercontent.com/90166916/138589090-d4be758f-3721-4840-afd1-c0378693501c.png)
+
   
   
   
