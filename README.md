@@ -9,4 +9,4 @@
 
 # Dumbways Boot 
 
-[Dumbways Boot Task1](Week1boot)
+[Dumbways Boot Task1](1)
