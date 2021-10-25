@@ -280,6 +280,15 @@
  *  lalu kalian bisa kembali ke instances dan kalian bisa lihat elastic ip sudah kelihatan di server kalian tadi.
  
    ![aws15](https://user-images.githubusercontent.com/90166916/138589090-d4be758f-3721-4840-afd1-c0378693501c.png)
+   
+ * Jika sudah selesai kalan bisa buka terminal kalian lalu masuk ke server yang kalian buat tadi.
+ * pertama tama masuk ke directory kalian yang ada keypair yang kalan download tadi .
+ * lalu langsung saja masuk ke server kalian dengan cara `ssh -i dumbways.pem ubuntu@35.172.97.51` (masukan perintah ssh -i lalu ubuntu@ipserverkalian).
+
+   ![aws16](https://user-images.githubusercontent.com/90166916/138590149-f89687d7-ec72-4bf7-9fc8-42a2b0e97388.png)
+
+ * jika sudah lakukan perintah `sudo apt update` dan `sudo apt upgrade`
+ * 
 
   
   
