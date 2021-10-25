@@ -24,7 +24,7 @@
   
   ![vm3](https://user-images.githubusercontent.com/90166916/138385577-29a28cc6-2324-46c6-9281-d9d976b788d7.png)
 
-6. jika masukan file vmware server ubuntu ini mau kalian simpan dimana.
+6. selanjutnya masukan file vmware server ubuntu ini mau kalian simpan dimana.
 
   ![vm4,1](https://user-images.githubusercontent.com/90166916/138385585-a413a6c7-a5ce-4985-8bf6-d46eb0e7573b.png)
 
