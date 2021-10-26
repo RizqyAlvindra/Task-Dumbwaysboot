@@ -62,8 +62,21 @@
  *  lalu disini kita buat script reverse proxy.
  *  masukan saja seperti script berikut : 
 
-   ![dwproxy6](https://user-images.githubusercontent.com/90166916/138572954-a6411d02-b7fb-433f-9e5c-dbb22644d312.png)
+   ```
+   server {
+	listen 80;
+	listen [::]:80;
 
+	server_name dwplay.xyz;
+
+	location / {
+		proxy_pass http://localhost:3000;
+	}
+}
+ ```
+ 
+ 
+ 
  *  jika sudah bisa keluar dari teks editor menggunakan `ctrl X` lalu tekan `Y` dan `Enter`.
  *  lalu kaliab bisa reload nginx kalian `sudo systemctl reload nginx`
 
