@@ -4,6 +4,11 @@
    Jadi Reverse Proxy merupakan sebuah fitur/modul di dalam sebuah webserver, yang berfungsi untuk melakukan port forwarding suatu request, dari public request menuju ke dalam sistem.
   
    Ditugas mingguan kali ini kita mendapatkan tugas untuk mendeploy aplikasi dumbsound di server yang telah kita buat tadi.
+   
+   Dan cara kerjanya sendiri menurut bahasa saya sendiri adalah client ke nginx baru di teruskan ke server.
+   
+   ![Screenshot from 2021-10-26 07-29-22](https://user-images.githubusercontent.com/90166916/138789021-fc34b5dd-218e-4b74-91af-25b2071ae220.png)
+
   
 1. Frontend dumbsound  
   
