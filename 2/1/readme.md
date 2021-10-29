@@ -84,4 +84,19 @@
   
     ![git11](https://user-images.githubusercontent.com/90166916/139366947-7e99f5e0-67c8-47cb-8237-ea1872d1a07d.png)
 
+* SSH KEY
+  
+  * Untuk membuat sebuah ssh key dapat menggunakan perintah `ssh-keygen`
+  * Jika sudah kalian bisa cek ssh kalian di `cd .ssh` lalu disitu terdapat ssh private dan publik `id_rsa` dan `id_rsa.pub`
+   
+   ![ssh 1](https://user-images.githubusercontent.com/90166916/139370769-7b81208e-784f-444d-a571-7b3cddd80a40.png)
 
+  * lalu copy ssh key yang id_rsa.pub dan masukan ke dalam config github dengan membuka github,lalu tekan profil, lalu pergi ke setting, lalu pilih ssh and gpg keys, lalu tekan saja new ssh dan masukan ssh key yang tadi kalian copy. lalu add ssh key.
+  
+   ![ssh2](https://user-images.githubusercontent.com/90166916/139372026-64089e38-28ad-4909-8c2b-3e1afaa7eb61.png)
+
+  * jika sudah kalian bisa cek dengan menggunakan perintah 
+
+    `ssh -T git@github.com` 
+    
+    ![ssh3](https://user-images.githubusercontent.com/90166916/139372224-fd41c82c-a7b0-4986-945b-012f85469832.png)
