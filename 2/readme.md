@@ -4,7 +4,7 @@
 
 [Setup Database](2)
 
-[Deployment Backend Application](3)
+[Deployment Backend Application](7)
 
 [Reverse Proxy For Backend Application](4)
 
