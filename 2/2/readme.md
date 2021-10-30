@@ -29,7 +29,61 @@
 9. lalu lakukan npm install.
 10. jika sudah lakukan perintah seperti yang ada di readme.md 
 11. disini kita install terlebih dahulu sequelize `npm install --save-dev sequelize-cli -g`
-12. lalu kita copy file ke server database `scp -r dumbplay.sql alvin@3.212.47.145:/home/alvin`
-13. lalu copy .env `cp .env-copy .env`
-  
- 
+12. sebelum kita mengcopy file dumbplay.sql untuk di teruskan ke database kita harus set permissionnya pubkey dan password di server database kita `/etc/ssh/sshd.config/` terlebih dahulu menggunakan perintah nano `sudo nano /etc/ssh/sshd.config`
+
+   ![set up 6](https://user-images.githubusercontent.com/90166916/139525789-4b7c7a47-c8d9-444c-a037-45949d5e97f7.png)
+   
+   disini kita harus ganti passwordautentication dari no menjadi yes.
+
+   ![set up 7](https://user-images.githubusercontent.com/90166916/139525830-28b0a5d6-50eb-4c84-8e8a-c35ff04956f9.png)
+   
+   lalu hilangkan `#` dari pubkeyautentication.
+
+14. lalu kita copy file ke server database `scp -r dumbplay.sql alvin@3.212.47.145:/home/alvin`
+15. lalu copy .env `cp .env-copy .env`
+16. jika sudah kita pindah ke database.
+17. tekan `ls` untuk melihat file dumbplay.sql kita tadi sudah berhasil di copy disini atau belum.
+   
+   ![set up 5](https://user-images.githubusercontent.com/90166916/139523214-55a01d8a-befe-4759-8eda-bacc892093fe.png)
+
+16. lalu instal terlebih dahulu mysql server
+
+   `sudo apt install mysql-server`
+   `sudo mysql_secure_installation`
+   
+   disini kita ikuti saja seperti petunjuk pertama tekan `yes` lalu set passwordnya low saja `0` lalu masukan password yang kalian inginkan. jika sudah tekan `yes` semua saja.
+   
+   lalu masuk ke `/etc/mysql` lalu ubah bind address menjadi 0.0.0.0 ` sudo nano mysql.conf.d/mysqld.cnf`
+   
+   ![set up database mysql](https://user-images.githubusercontent.com/90166916/139527645-3104ba36-41bb-42d3-b81f-218567559fd7.png)
+   
+17. jika sudah kalian bisa masuk ke root dengan menggunakan cara `sudo mysql -u root -p` lalu masukan password kalian.
+18. lalu buatlah database menggunakan perintah. `CREATE databases dumplay;`
+19. lalu kalian bisa cek menggunakan perintah `show databases;`
+
+   ![set up 8](https://user-images.githubusercontent.com/90166916/139526306-d43e1668-8977-45e7-809d-cce68f792474.png)
+
+20. lalu buat user sekalian menggunakan perintah .
+
+   `CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';`
+    *masukan user yang kalian inginkan serta masukan password yang kalian inginkan.
+   
+   `GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';`
+    *masukan perintah ini untuk mengkonfirmasi user kalian.
+    
+21. jika sudah masuk ke server backend kalian .
+22. lalu masuke directory config `cd config` lalu masukan user root kalian di file config.json `sudo nano config.json`
+
+   ![set up 9](https://user-images.githubusercontent.com/90166916/139526726-f1caeb9c-e443-40f1-a2a8-0a161b8f65fb.png)
+   *ganti user password seperti yang kalian buat di database lalu ganti juga host nya menjadi ip publik kalian.
+   
+23. jika sudah kalian bisa masukan perintah `sequelize db:migrate` di directory dumbplay-backend.
+24. jika sudah selesai kalian bisa kembali ke database kalian.
+25. lalu masuk ke user root kalian.
+26. lalu masukan perintah `show databases;`
+27. lalu masuk ke database dumbplay `use dumplay`
+28. lalu masukkan `show tables` 
+
+   ![set up 10](https://user-images.githubusercontent.com/90166916/139527765-24cd1691-9947-44e0-89bb-a28b83cec90e.png)
+    dan kalian bisa lihat database sudah masuk semua.
+   
