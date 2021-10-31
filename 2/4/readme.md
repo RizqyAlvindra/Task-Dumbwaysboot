@@ -7,6 +7,7 @@
 * lalu masuk ke folder nginx `cd /etc/nginx`
 * lalu buat folder baru `sudo mkdir dumbsound-backend`
 * lalu buat file reverse proxy `sudo nano alvin2.onlinecamp.id` 
+* masukan ip pub backend kalian lalu masukan si port aplikasi backend yaitu 5000
 
   ```
   server {
