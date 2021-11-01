@@ -21,7 +21,7 @@
      ```
      
 * jika sudah simpan lalu keluar.
-* keluar dari file `cd ..`
+* keluar dari directory `cd ..`
 * setelah itu masuk ke file nginx.conf `sudo nano nginx.conf`
 * setelah itu masukan alamat file yang kalian buat tadi di bagian include.
 
