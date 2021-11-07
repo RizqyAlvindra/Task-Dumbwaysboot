@@ -1,17 +1,17 @@
 # Task-Dumbwaysboot 
-[Tugas DevOps1](week1)
+[Tugas DevOps1 Pree Class](week1)
 
-[Tugas DevOps2](Week2)
+[Tugas DevOps2 Pree Class](Week2)
 
-[Tugas DevOps3](Week3)
+[Tugas DevOps3 Pree Class](Week3)
 
-[Tugas DevOps4](Week4)
+[Tugas DevOps4 Pree Class](Week4)
 
 # Dumbways Boot 
 
-[Dumbways Boot Task1](1)
+[Dumbways Boot Week31](1)
 
-[Dumbways Boot Task2](2)
+[Dumbways Boot Week2](2)
 
-[Dumbways Boot Task2](3)
+[Dumbways Boot Week3](3)
 
