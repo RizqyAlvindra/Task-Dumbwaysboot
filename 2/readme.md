@@ -1,4 +1,4 @@
-# TASK DUMBWAYS BOOT WEEK2
+# Git and Backend application
 
 [Install Git and SSH key](1)
 
