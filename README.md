@@ -9,7 +9,7 @@
 
 # Dumbways Boot 
 
-[Dumbways Boot Week3](1)
+[Dumbways Boot Week1](1)
 
 [Dumbways Boot Week2](2)
 
