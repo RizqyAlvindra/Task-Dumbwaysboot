@@ -28,7 +28,7 @@
   * Pertama-tama saya membuat terlebih dahulu file Docker file dengan menggunakan dengan script seperti berikut.
 
     ``` 
-        FROM node:14.18.1
+        FROM node:lts-alpine3.14
         WORKDIR /DW16WYD0W-APP-DUMPLAY/client
         COPY . .
         RUN npm install
@@ -38,29 +38,37 @@
   * Setelah itu saya membuat image untuk aplikasi frontend 
 
     ```
-    sudo docker build --tag frontend:14 .
+    sudo docker build --tag frontend:lts-alpine3.14 .
     ```
    
   * Jika sudah cek terlebih dahulu apakah images nya sudah ada atau belum.
 
     `sudo docker images`
     
-      ![docker4](https://user-images.githubusercontent.com/90166916/140637608-1dfa9a01-6809-4810-a18b-386075eb0b19.png)
+    ![docker4](https://user-images.githubusercontent.com/90166916/140744722-9d6307f0-d3af-4d7e-8568-03b8a5f935db.png)
 
   * Setelah itu saya membuat containernya terlebih dahulu.
 
     ```
-    sudo docker container create --name frontend -p 2000:3000 frontend:14
+    sudo docker container create --name frontend -p 2000:3000 frontend:lts-alpine3.14
     ```
     
   * Jika sudah cek container apakah sudah terbuat atau belum.
 
     `sudo docker container ls -a`
     
-      ![docker5](https://user-images.githubusercontent.com/90166916/140637672-31617a87-1812-40fe-8fa8-56ca43adcb5d.png)
+    ![docker5](https://user-images.githubusercontent.com/90166916/140744941-55b727af-30ad-4801-b355-1739b3687e3d.png)
 
   * Jika sudah ada langsung saja kita jalankan si container.
 
+    `sudo docker container start frontend`
+    
+  * Jika sudah kalian bisa buka web browser kalian lalu masukan ip pub.kalian lalu masukan port si container.
+
+    `3.208.255.202:2000`
+    
+    ![docker10](https://user-images.githubusercontent.com/90166916/140681803-2f134ba3-d0e7-4558-9225-011bcedb1065.png)
+    
 3. Instalasi aplikasi Backend. 
   
   *  Pertama-tama saya membuat terlebih dahulu file Docker file dengan menggunakan dengan script seperti berikut.
