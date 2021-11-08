@@ -58,3 +58,42 @@
       ![Jenkins9](https://user-images.githubusercontent.com/90166916/140748875-1ccbaca9-df05-487f-9fc8-5bf839084777.png)
 
       ![Jenkins10](https://user-images.githubusercontent.com/90166916/140748879-39be96b5-358f-4ef4-9e71-c312c95da2d6.png)
+
+# Reverse Proxy and Setting Domain for Jenkins.
+
+1. Sama seperti minggu" lalu kita buat terlebih dahulu domain kita di cloudfare dns.
+
+      ![jenkinproxy1](https://user-images.githubusercontent.com/90166916/140798453-310a22b8-6c0c-4ede-8e97-07b44699cee4.png)
+
+2. Jika sudah kita masuk ke server nginx kita.
+3. Lalu buat directory baru di etc/nginx. 
+
+   `cd /etc/nginx`
+
+   `sudo mkdir jenkins.alvin.onlinecamp.id`
+   
+4. Lalu kita buat file reverse.proxy Jenkins kita.
+
+   ```
+   server {
+    listen 80;
+    server_name jenkins.alvin.onlinecamp.id;
+
+    location / {
+	    proxy_pass http://3.210.158.196:8080;
+          }
+     } ```
+
+
+5. Jika sudah kita masuk ke nginx.conf dan masukan lokasi file.reverse proxy kita tadi.
+
+   ![Jenkinproxy2](https://user-images.githubusercontent.com/90166916/140799320-56b24364-8870-4f61-8cb8-7e2783f25dad.png)
+
+6. Jika sudah restart nginx kita setelah itu buka web.browser kalian.
+
+   `sudo systemctl restart nginx`
+   
+   `jenkins.alvin.onlinecamp.id`
+   
+   ![Jenkinsproxy3](https://user-images.githubusercontent.com/90166916/140799584-922c9a98-4f44-4bbc-8938-d1f0349be7d6.png)
+   
