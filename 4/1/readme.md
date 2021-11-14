@@ -160,6 +160,65 @@
     ![Screenshot from 2021-11-14 16-04-18](https://user-images.githubusercontent.com/90166916/141674631-6b499115-00ce-43c8-8f25-2e416d8e8bdf.png)
 
   * setelah itu buka web browser kalian lalu akses menggunakan ip kalians setelah itu masukan port si aplikasi
+    
     http://34.226.252.105:9090/  
     
     ![Screenshot from 2021-11-14 15-37-08](https://user-images.githubusercontent.com/90166916/141674644-ed579b9e-94ad-4e86-8b16-17103057b3ad.png)
+
+    ![Screenshot from 2021-11-14 16-19-22](https://user-images.githubusercontent.com/90166916/141675034-4721c160-7c98-43ad-b732-18aa0c85ed02.png)
+
+# 3. Installation Grafana.
+
+  * masuk ke root.
+  
+    `sudo su`
+    
+  * masukan perintah  seperti dibawah untuk mendapatkan package grafana.
+  
+    `sudo wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -`
+    
+    ![Screenshot from 2021-11-14 16-44-52](https://user-images.githubusercontent.com/90166916/141675834-5f700bfe-d148-48fe-a84f-8d440b3b3737.png)
+
+  * jika sudah keluar dari root `ctrl+D`
+  * setelah itu masukan perintah.
+    
+    `sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"` 
+  
+  * jika sudah lakukan instalasi grafana.
+  
+    `sudo apt install grafana -y`
+    
+  * setelah itu masuk file /etc/grafana/grafana.ini disini kita edit confignya di bagian user dan anonymous.
+  * pastikan sama seperti gambar dibawah.
+  
+    `sudo nano /etc/grafana/grafana.ini`
+    
+    ![Screenshot from 2021-11-14 16-34-04](https://user-images.githubusercontent.com/90166916/141676137-a2b970e5-0b8a-41f6-bb88-3958b8a0d019.png)
+
+    ![Screenshot from 2021-11-14 16-34-40](https://user-images.githubusercontent.com/90166916/141676135-0441e492-eeaa-41e2-afa6-934414d1f3ac.png)
+
+  
+  * jika sudah hidupkan system grafana.
+  * lalu reload grafana.
+  * setelah itu jalankan system grafana.
+  * lalu cek status grafana.
+    
+    `sudo systemctl enable grafana-server`
+    
+    `sudo systemctl reload grafana-server`
+    
+    `sudo systemctl start grafana-server`
+
+    `sudo systemctl status grafana-server`
+    
+    ![Screenshot from 2021-11-14 16-54-13](https://user-images.githubusercontent.com/90166916/141676198-74ddd541-94eb-476f-a7ad-efaccf159847.png)
+    
+    ![Screenshot from 2021-11-14 16-49-06](https://user-images.githubusercontent.com/90166916/141676127-a90d35ed-fbb6-4f9a-9a3b-efba86de32e9.png)
+
+  * Jika sudah kalian bisa buka webbrowser kalian lalu masukan ip kalian setelah itu masukan port si aplikasi.
+
+    http://34.226.252.105:3000/
+    
+    ![Screenshot from 2021-11-14 16-36-25](https://user-images.githubusercontent.com/90166916/141676132-0a19784d-b2b5-435d-8dcb-73c7bfc0ed14.png)
+
+    
