@@ -47,6 +47,7 @@
   ![Screenshot from 2021-11-15 17-46-45](https://user-images.githubusercontent.com/90166916/141770430-fd2ef951-5ebe-418d-825a-f7b80bba88c7.png)
 
 16 tekan saja connect.
+
 17 dan deploy php database telah selesai
 
  ![Screenshot from 2021-11-15 18-13-09](https://user-images.githubusercontent.com/90166916/141772487-c620882f-9fa6-4b7c-a485-f3142c0a7479.png)
