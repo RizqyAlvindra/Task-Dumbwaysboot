@@ -77,3 +77,17 @@
     http://monitoring.alvin.onlinecamp.id
     
    ![multi6](https://user-images.githubusercontent.com/90166916/141750027-7f93833d-160d-4b64-ab5a-244c30b9313d.png)
+
+# Edited Grafana Theme
+1. Panel Networking.
+
+   * Pergi ke menu Configuration lalu cari Prometheus.
+   * lalu masukan ip server prometheus kalian dan masukan port si aplikasi.
+   
+    ![grafana1](https://user-images.githubusercontent.com/90166916/141752808-4ad978ea-2724-4abf-b066-ceffaeeecf45.png)
+   
+   * setelah itu tekan save dan test.
+   * setelah itu tekan tanda + di menu.
+   * lalu tekan create.
+   * lalu tekan add an empty panel. 
+2. 
