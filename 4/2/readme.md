@@ -78,16 +78,33 @@
     
    ![multi6](https://user-images.githubusercontent.com/90166916/141750027-7f93833d-160d-4b64-ab5a-244c30b9313d.png)
 
-# Edited Grafana Theme
-1. Panel Networking.
+# Grafana Theme
 
    * Pergi ke menu Configuration lalu cari Prometheus.
    * lalu masukan ip server prometheus kalian dan masukan port si aplikasi.
    
-    ![grafana1](https://user-images.githubusercontent.com/90166916/141752808-4ad978ea-2724-4abf-b066-ceffaeeecf45.png)
+   ![grafana1](https://user-images.githubusercontent.com/90166916/141752808-4ad978ea-2724-4abf-b066-ceffaeeecf45.png)
    
    * setelah itu tekan save dan test.
    * setelah itu tekan tanda + di menu.
    * lalu tekan create.
    * lalu tekan add an empty panel. 
-2. 
+   * setelah itu buka server prometheus kalian.
+   * lalu cari saja apa yang kalian butuhkan untuk melakukan monitoring.
+   * contoh saya mencari build info
+
+   ![grafana2](https://user-images.githubusercontent.com/90166916/141757841-978c846c-299f-4629-a517-b5ee183ff368.png)
+
+   * setelah itu masuk ke grafana masuk ke empypanel yang tadi jika sudah masukan ke bagian metrics browser.
+   
+	```node_exporter_build_info{branch="HEAD", goversion="go1.16.7", instance="18.233.109.255:9100", job="node_exporter_metrics",revision="26645363b486e12be40af7ce4fc91e731a33104e", version="1.2.2"}```
+
+   * setelah itu tekan apply
+
+   ![grafana3](https://user-images.githubusercontent.com/90166916/141758225-67c31e2f-5dc3-42f2-bf14-ef8f5eb0ed0a.png)
+
+   * dan kalian bisa lihat Dashboard kalian.
+
+   ![grafana4](https://user-images.githubusercontent.com/90166916/141758353-17182675-336b-4115-8f03-b4801484ec99.png)
+
+   * lakukan seperti di atas lagi jika kalian ingin menambahkan beberapa panel lagi.
