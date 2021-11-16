@@ -25,13 +25,13 @@
 
 9, tampilan cpanel.
 
-  ![Screenshot from 2021-11-15 17-41-01](https://user-images.githubusercontent.com/90166916/141770421-05b33691-52b5-4a86-bdd0-4385183577b7.png)
+  ![Screenshot from 2021-11-16 14-03-13](https://user-images.githubusercontent.com/90166916/141936992-82de23f8-2c82-45c2-96e3-47e3e3b40f7c.png)
 
 10. jika sudah scroll ke paling bawah dan pilih softaculous apps installer.
 11. jika sudah masuk pilih apa yang ingin kalian gunakan.
 12. disini saya memakai wordpress.
 
-  ![Screenshot from 2021-11-15 18-09-00](https://user-images.githubusercontent.com/90166916/141771938-e834ceff-da67-4391-a1d6-d01b10eb0732.png)
+  ![Screenshot from 2021-11-15 17-41-01](https://user-images.githubusercontent.com/90166916/141770421-05b33691-52b5-4a86-bdd0-4385183577b7.png)
 
 13 jika sudah tekan saja
 14.jangan lupa untuk set password terlebih dahulu untuk si database.
