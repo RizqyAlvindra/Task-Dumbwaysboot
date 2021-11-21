@@ -20,5 +20,7 @@
 7. jika sudah lalu push.
 
   ![repo1](https://user-images.githubusercontent.com/90166916/142751528-fb6e520a-d180-477a-8c85-e0900da5962c.png)
+  
+  ![repo2](https://user-images.githubusercontent.com/90166916/142751610-483ab751-c4f7-4eec-a52b-ffe9cbf77642.png)
 
 8. lakukan hal yang sama seperti di atas untuk directory backend.
