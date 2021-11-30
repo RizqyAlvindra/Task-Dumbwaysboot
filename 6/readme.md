@@ -66,7 +66,7 @@
   
   * Clone repository mentor kita. 
     
-    `git clone https://github.com/ogak/dumbways-microservice.git`
+    `git clone https://github.com/sgnd/dumbways-microservices.git`
    
   * Build docker-compose 
 
